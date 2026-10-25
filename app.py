@@ -4,6 +4,7 @@ import redis
 
 app = Flask(__name__)
 
+# THIS IS THE MISSING DICTIONARY LINK THAT CAUSES THE ERROR:
 PRICES = {"laptop": 55000, "headphones": 2500, "keyboard": 1200}
 
 
